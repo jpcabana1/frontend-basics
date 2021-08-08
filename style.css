@@ -2,10 +2,10 @@ body {
   background-color: rgb(51, 48, 84);
 }
 
-.result{
-    float: right;
-    font-size: 5rem;
-    margin-right: 2rem;
+.result {
+  float: right;
+  font-size: 5rem;
+  margin-right: 2rem;
 }
 
 .expression {
@@ -29,11 +29,10 @@ body {
 }
 
 .btnNumber:hover {
-  background-color: rgb(190, 122, 77);
   color: rgb(14, 6, 6);
 }
 
 .btnNumber:active {
-  background-color: rgb(114, 253, 0);
-  color: rgb(14, 6, 6);
+  background-color: rgba(56, 224, 56, 0.582);
+  /* color: rgb(0, 0, 0); */
 }
