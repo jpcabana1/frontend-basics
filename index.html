@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <script src="./code.js"></script>
+  </head>
+
+  <body>
+    <div class="mainPanel">
+        <label class="result"><b>8522222</b></label>
+        <br />
+      <h1>Calculadora</h1>
+      <label class="expression" id="exp">(25 + 10) + 25 + 25</label>
+      <br />
+     
+      <input class="btnNumber" type="button" value="(" onclick="clicou(`(`)" />
+      <input class="btnNumber" type="button" value=")" onclick="clicou(`)`)" />
+      <button class="btnNumber" onclick="clicou(`C`)"><b>C</b></button>
+      <button class="btnNumber"><i class="fas fa-backspace"></i></button>
+      <br />
+      <input class="btnNumber" type="button" value="1" onclick="clicou(`1`)" />
+      <input class="btnNumber" type="button" value="2" onclick="clicou(`2`)" />
+      <input class="btnNumber" type="button" value="3" onclick="clicou(`3`)" />
+      <button class="btnNumber" onclick="clicou(` + `)">
+        <i class="fas fa-plus"></i>
+      </button>
+      <br />
+      <input class="btnNumber" type="button" value="4" onclick="clicou(`4`)" />
+      <input class="btnNumber" type="button" value="5" onclick="clicou(`5`)" />
+      <input class="btnNumber" type="button" value="6" onclick="clicou(`6`)" />
+      <button class="btnNumber" onclick="clicou(` - `)">
+        <i class="fas fa-minus"></i>
+      </button>
+      <br />
+      <input class="btnNumber" type="button" value="7" onclick="clicou(`7`)" />
+      <input class="btnNumber" type="button" value="8" onclick="clicou(`8`)" />
+      <input class="btnNumber" type="button" value="9" onclick="clicou(`9`)" />
+      <button class="btnNumber" onclick="clicou(` * `)">
+        <i class="fas fa-times"></i>
+      </button>
+      <br />
+      <input class="btnNumber" type="button" value="." onclick="clicou(`.`)" />
+      <input class="btnNumber" type="button" value="0" onclick="clicou(`0`)" />
+      <input class="btnNumber" type="button" value="=" onclick="clicou(`=`)" />
+      <button class="btnNumber" onclick="clicou(` / `)">
+        <i class="fas fa-divide"></i>
+      </button>
+      <br />
+    </div>
+  </body>
+</html>

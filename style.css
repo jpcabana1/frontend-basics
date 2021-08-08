@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(51, 48, 84);
+}
+
+.result{
+    float: right;
+    font-size: 5rem;
+    margin-right: 2rem;
+}
+
+.expression {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.mainPanel {
+  border-style: dashed;
+  border-color: white;
+  color: white;
+  width: 50rem;
+}
+
+.btnNumber {
+  font-size: 5rem;
+  width: 10rem;
+  background-color: chocolate;
+  color: white;
+  margin: 1rem;
+}
+
+.btnNumber:hover {
+  background-color: rgb(190, 122, 77);
+  color: rgb(14, 6, 6);
+}
+
+.btnNumber:active {
+  background-color: rgb(114, 253, 0);
+  color: rgb(14, 6, 6);
+}
